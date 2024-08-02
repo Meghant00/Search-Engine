@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input[type="text"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.round {
+  transform: rotate(-90deg);
+
+  /* SVG */
+  fill: none;
+  stroke: #0066cc;
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-dasharray: 0 999;
+}
