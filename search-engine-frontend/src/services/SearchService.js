@@ -24,6 +24,8 @@ export const search = async ({ query }) => {
       result.authors = result.authorsAndLinks;
     });
 
+    console.log(results);
+
     return { results: results, queryTime: queryTime };
   } catch (error) {
     console.log(error);
